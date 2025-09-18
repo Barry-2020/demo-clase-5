@@ -6,7 +6,7 @@ LABEL maintainer="engineering@fintech-corp.com"
 LABEL service="payments-service"
 LABEL version="1.2.3"
 LABEL environment="production"
-
+ 
 # Production environment variables
 ENV MYSQL_HOST=prod-db-cluster.fintech-corp.com
 ENV MYSQL_PORT=3306
